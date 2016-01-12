@@ -1,0 +1,23 @@
+.box{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.box1{background-color: violet;}
+.box2{background-color: blue;}
+.box3{background-color: skyblue;}
+.box4{background-color: green;}
+.box5{background-color: yellow;}
+.box6{background-color: black;}
+.box7{background-color: red;}
+.box8{background-color: sienna;}
+.box9{background-color: purple;}
+.box10{background-color: turquoise;}
+
+.container{
+    display: flex;
+    /*border: 10px solid;
+    display: inline-flex;*/
+}
