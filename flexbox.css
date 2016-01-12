@@ -18,6 +18,19 @@
 
 .container{
     display: flex;
-    /*border: 10px solid;
-    display: inline-flex;*/
+    border: 10px solid;
+    /*display: inline-flex;*/
+    min-height: 100vh;
+
+    /*row is the default*/
+    flex-direction: row;
+
+    /*row-reverse contents start from right to left*/
+    /*flex-direction: row-reverse;*/
+
+    /*flex-direction: column;
+
+    /*column-reverse contents start from bottom to top*/
+    /*flex-direction: column-reverse;*/
+
 }
