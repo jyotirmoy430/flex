@@ -18,29 +18,17 @@
 
 .container{
     display: flex;
-    border: 5px solid;
-    /*display: inline-flex;*/
-
-    /*one three*/
-    height: 100vh;
-
-    /*two, three: row is the default*/
-    flex-direction: row;
-
-    /*two: row-reverse contents start from right to left*/
-    /*flex-direction: row-reverse;*/
-
-    /*flex-direction: column;*/
-
-    /*column-reverse contents start from bottom to top*/
-    /*flex-direction: column-reverse;*/
-
-    /* three */
-    /*flex-wrap: wrap;*/
-
-
 }
 
+/*good for changing order on small device*/
 .box{
-    /*width: 300px;*/
+    flex: 1;
+}
+
+.box3{
+    /*order: 6;*/
+    /*order: -1;*/
+}
+.box4{
+    /*order:5;*/
 }
