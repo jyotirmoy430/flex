@@ -17,7 +17,20 @@
 .box10{background-color: turquoise;}
 
 .container{
+    border: 3px solid salmon;
     display: flex;
-    /*border: 10px solid;
-    display: inline-flex;*/
+
+    /*Good for vertical align middle*/
+    /*align-items: center;*/
+
+    /*align-items: flex-start;*/
+
+    /*align-items: flex-end;*/
+
+    /*align-items: baseline;*/
+
+    height: 100vh;
+
+
+    /*flex-direction: column;*/
 }
