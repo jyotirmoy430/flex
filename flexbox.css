@@ -3,6 +3,7 @@
     font-size: 100px;
     text-align: center;
     padding: 10px;
+
 }
 
 .box1{background-color: violet;}
@@ -18,6 +19,19 @@
 
 .container{
     display: flex;
-    /*border: 10px solid;
-    display: inline-flex;*/
+    height: 100vh;
+    border: 10px solid;
+
+    /*align-items: flex-start;*/
+
+}
+
+.box3{
+    /*padding-bottom:20%;*/
+    /*align-self: flex-start;*/
+
+    /*align-self: stretch;*/
+}
+.box7{
+    /*padding-bottom:35%;*/
 }
