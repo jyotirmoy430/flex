@@ -1,6 +1,6 @@
 .box{
     color: white;
-    font-size: 100px;
+    font-size: 10px;
     text-align: center;
     padding: 10px;
 }
@@ -17,13 +17,13 @@
 .box10{background-color: turquoise;}
 
 .container{
-    display: flex;
+    /*display: flex;*/
     border: 10px solid;
     /*display: inline-flex;*/
     min-height: 100vh;
 
     /*row is the default*/
-    flex-direction: row;
+    /*flex-direction: row;*/
 
     /*row-reverse contents start from right to left*/
     /*flex-direction: row-reverse;*/
