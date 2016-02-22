@@ -20,8 +20,8 @@
     border: 3px solid salmon;
     display: flex;
 
-    /*Good for vertical align middle*/
-    /*align-items: center;*/
+    /*Good for vertical align middle, default is stretch*/
+    align-items: center;
 
     /*align-items: flex-start;*/
 
@@ -33,4 +33,5 @@
 
 
     /*flex-direction: column;*/
+
 }
