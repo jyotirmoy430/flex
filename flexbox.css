@@ -3,6 +3,9 @@
     font-size: 100px;
     text-align: center;
     padding: 10px;
+    
+    width:30.3333%;
+    
 }
 
 .box1{background-color: violet;}
@@ -20,4 +23,10 @@
     display: flex;
     /*border: 10px solid;
     display: inline-flex;*/
+    min-height:100vh;
+    justify-content:space-between;
+    
+    flex-wrap:wrap;
+    
+    /*align-content:flex-start;*/
 }
